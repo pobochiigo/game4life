@@ -4,12 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/VolodymyrPobochii/game4life/game"
-	"github.com/VolodymyrPobochii/game4life/rule"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/VolodymyrPobochii/game4life/game"
+	"github.com/VolodymyrPobochii/game4life/rule"
 )
 
 var seed = [25][25]uint8{
